@@ -1,0 +1,275 @@
+/* Estilo De Fondo */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8400ff;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    max-width: 610px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8400ff;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo De Botones */
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #020202;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0c4dff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.custom-button:hover {
+    background-color: #24a2c2;
+    color: #fff;
+}
+
+/* Estilo De Botones para album */
+
+.spotifya {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #020202;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.spotify {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #020202;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #03cf36;
+    transition: background-color 0.3s, color 0.3s;
+}
+.youtube {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #020202;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff0000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.apple {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #020202;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7c0210;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mover Imagenes.css */
+
+.movable-image {
+    position: relative;
+    top: 10px; /* Ajusta el valor según la posición vertical deseada */
+    left: 100px; /* Ajusta el valor según la posición horizontal deseada */
+}
+
+/* Mover Texto */
+
+.movable-text {
+    margin-top: 10px; /* Ajusta el valor según la posición vertical deseada */
+    margin-left:10px; /* Ajusta el valor según la posición horizontal deseada */
+}
+
+/* Mover Texto Para Album */
+
+.movable-textt {
+    margin-top: -25px; /* Ajusta el valor según la posición vertical deseada */
+    margin-left:10px; /* Ajusta el valor según la posición horizontal deseada */
+}
+
+
+/* Texto Centrado Para Album */
+.custom-text {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+    color: #000000; /* Cambia el color del texto */
+    font-size: 35px; /* Cambia el tamaño del texto */
+    font-weight: bold; /* Hace el texto en negrita */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Subraya el texto */
+}
+
+/* Texto Centrado Creador Album */
+.custom-textt {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+    color: #000000; /* Cambia el color del texto */
+    font-size: 18px; /* Cambia el tamaño del texto */
+    font-weight: bold; /* Hace el texto en negrita */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Subraya el texto */
+}
+
+
+
+
+
+
+
+
+/* ZONA DE LA SECCIÓN BROWSE */ 
+
+/* Texto custom para browse */
+.custom-textb {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+    color: #000000; /* Cambia el color del texto */
+    font-size: 16px; /* Cambia el tamaño del texto */
+    font-weight: bold; /* Hace el texto en negrita */
+    text-align: none; /* Alinea el texto al centro */
+    text-decoration: none; /* Subraya el texto */
+}
+
+
+.movable-imageb {
+    position: relative;
+    top: -289px; /* Ajusta el valor según la posición vertical deseada */
+    left: 200px; /* Ajusta el valor según la posición horizontal deseada */
+}
+
+/* Mover Texto */
+
+.movable-textb {
+    margin-top: -265px; /* Ajusta el valor según la posición vertical deseada */
+    margin-left: 200px; /* Ajusta el valor según la posición horizontal deseada */
+}
+
+

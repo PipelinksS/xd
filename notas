@@ -1,0 +1,27 @@
+                    
+                    
+                    
+                  Comando para logo central 
+                    
+                    <a href="#" class="logo">
+                      <img src="" height="60" width="200" alt=""></a>
+
+
+
+                      <a href="album1.html" class="custom-button">Parte 1</a>
+                    <a href="album2.html" class="custom-button">Parte 2</a>
+                    <a href="album3.html" class="custom-button">Parte 3</a>
+                    <a href="album4.html" class="custom-button">Parte 4</a> 
+
+
+                     
+                  <script>
+                    function toggleMenu() {
+                        var menuItems = document.getElementById("menuItems");
+                        if (menuItems.style.display === "block") {
+                            menuItems.style.display = "none";
+                        } else {
+                            menuItems.style.display = "block";
+                        }
+                    }
+                </script>
